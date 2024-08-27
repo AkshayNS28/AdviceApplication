@@ -1,0 +1,68 @@
+.screen{
+  background-image:url('./image1.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; 
+  height: 100vh; 
+  width: 100%;
+ 
+ 
+
+}
+
+.advice{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 3vw;
+  margin: auto;
+  padding: 12rem 30px 30px 30px;
+}
+
+.btn {
+  position: absolute; 
+  top: 25vw;       
+  left: 50vw;      
+  transform: translateX(-50%); 
+  z-index: 1000; 
+  background-color: rgb(113, 202, 226);  
+  color: rgb(0, 0, 0);
+  border: none;               
+  border-radius: 50px;           
+  padding: 10px 30px;            
+  font-size: 1.5rem;             
+  cursor: pointer;                
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  transition: background-color 0.3s ease;
+}
+
+
+.btn:hover {
+  background-color: #3974b4;      
+}
+
+
+.clock {
+  color: rgb(4, 17, 17);
+  text-align: center;
+  position: relative;
+  top: 7vw; 
+  font-size: 2.5vw;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.footer {
+  text-align: center;
+  justify-content: center;
+  position: absolute;  
+  bottom: 0;        
+  left: 0;         
+  right: 0;        
+  color: aliceblue;
+  padding: 6px 0;         
+  width: 100%;            
+   
+}         
